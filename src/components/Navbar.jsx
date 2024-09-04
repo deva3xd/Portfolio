@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
     return (
         <nav className="bg-custom-primary border-gray-200 text-white sm:fixed sm:top-0 sm:left-0 sm:right-0 w-screen z-10">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 px-5 sm:px-20">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 px-5 lg:px-20">
                 <a
                     href="#hero"
                     className="flex items-center space-x-3 rtl:space-x-reverse"

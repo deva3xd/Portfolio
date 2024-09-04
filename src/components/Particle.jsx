@@ -83,8 +83,7 @@ const Particle = ({ id }) => {
       }),
       [],
     );
-  
-  
+    
     return <Particles id={id} init={particlesLoaded} options={options} />; 
 };
 

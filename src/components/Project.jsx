@@ -10,21 +10,22 @@ import Github from "../assets/icons/github.png";
 const Project = () => {
     useEffect(() => {
         Aos.init();
-    }, [])
+    }, []);
+    
     return (
-        <div className="bg-custom-primary text-white max-w-screen-xl mx-auto px-5 lg:px-20 pt-14 relative" id="project">
+        <div className="bg-custom-tertiary text-white max-w-screen-xl mx-auto px-5 lg:px-20 pt-14 relative" id="project">
             <div data-aos="fade-right">
                 <div className="text-center">
                     <h2 className="text-2xl sm:text-4xl font-bold mb-2 sm:mb-5">Project</h2>
                 </div>
-                <div className="flex flex-wrap justify-center gap-5">
+                <div className="flex flex-wrap justify-center gap-5 px-10 lg:px-0">
                     <div className="lg:max-w-md bg-white border border-white rounded-lg shadow">
                         <span className="h-full">
                             <img className="rounded-t-lg lg:h-64" src={Cinetix} alt="Project 1" />
                         </span>
                         <div className="p-2">
                             <span className='flex justify-between items-center'>
-                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-primary">Cinetix</h5>
+                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-tertiary">Cinetix</h5>
                                 <a href="https://github.com/deva3xd/Cinetix.git" className='text-white bg-black text-xs flex items-center py-2 px-3 rounded-lg gap-1'>
                                     <img src={Github} alt='Github' width={15} />
                                     Source</a>
@@ -37,7 +38,7 @@ const Project = () => {
                         </span>
                         <div className="p-2">
                             <span className='flex justify-between items-center'>
-                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-primary">Kostly</h5>
+                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-tertiary">Kostly</h5>
                                 <a href="https://github.com/deva3xd/UAS-Web.git" className='text-white bg-black text-xs flex items-center py-2 px-3 rounded-lg gap-1'>
                                     <img src={Github} alt='Github' width={15} />
                                     Source</a>
@@ -50,7 +51,7 @@ const Project = () => {
                         </span>
                         <div className="p-2">
                             <span className='flex justify-between items-center'>
-                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-primary">Pelayanan</h5>
+                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-tertiary">Pelayanan</h5>
                                 <a href="https://github.com/deva3xd/PKL-2024.git" className='text-white bg-black text-xs flex items-center py-2 px-3 rounded-lg gap-1'>
                                     <img src={Github} alt='Github' width={15} />
                                     Source</a>
@@ -63,7 +64,7 @@ const Project = () => {
                         </span>
                         <div className="p-2">
                             <span className='flex justify-between items-center'>
-                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-primary">Poke</h5>
+                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-tertiary">Poke</h5>
                                 <a href="https://github.com/deva3xd/Poke.git" className='text-white bg-black text-xs flex items-center py-2 px-3 rounded-lg gap-1'>
                                     <img src={Github} alt='Github' width={15} />
                                     Source</a>

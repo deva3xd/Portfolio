@@ -5,7 +5,7 @@ import Linkedin from "../assets/icons/linkedin.png";
 
 const Footer = () => {
     return (
-        <footer className="border-t-2 border-white shadow mb-0">
+        <footer className="border-t-2 border-white mb-0 px-5 lg:px-20 max-w-screen-xl mx-auto">
             <h5 className="text-center text-gray-500 font-extrabold mt-5">FOLLOW ME</h5>
             <div className="flex justify-center pb-5 mt-2">
                 <a href="https://github.com/deva3xd">
