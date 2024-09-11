@@ -9,7 +9,7 @@ const Hero = () => {
                     Hi, I'm  Deva Rahma Nugroho
                 </h2>
                 <h1 className="font-bold text-2xl lg:text-4xl">
-                    Full-Stack Web Developer
+                    Web Developer
                 </h1>
                 <p className="font-light text-sm lg:text-base">
                     I live in Indonesia. Has approximately 2 years experience in building a website. I’m a responsible person, so the application I make will not exceed the specified time limit. <br /><br /> Visit:
