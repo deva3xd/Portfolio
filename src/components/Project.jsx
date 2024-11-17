@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import Cinetix from "../assets/images/cinetix.png";
 import Kostly from "../assets/images/kostly.png";
-import Pelayanan from "../assets/images/pelayanan.png";
+import Jms from "../assets/images/jms.png";
 import Poke from "../assets/images/poke.png";
 import Github from "../assets/icons/github.png";
 
@@ -25,8 +25,8 @@ const Project = () => {
                         </span>
                         <div className="p-2">
                             <span className='flex justify-between items-center'>
-                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-tertiary">Cinetix</h5>
-                                <a href="https://github.com/deva3xd/Cinetix.git" className='text-white bg-black text-xs flex items-center py-2 px-3 rounded-lg gap-1'>
+                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-tertiary">Movie App</h5>
+                                <a href="https://github.com/deva3xd/Movie-App.git" className='text-white bg-black text-xs flex items-center py-2 px-3 rounded-lg gap-1'>
                                     <img src={Github} alt='Github' width={15} />
                                     Source</a>
                             </span>
@@ -47,12 +47,12 @@ const Project = () => {
                     </div>
                     <div className="lg:max-w-md bg-white border border-white rounded-lg shadow">
                         <span className="h-full">
-                            <img className="rounded-t-lg lg:h-64" src={Pelayanan} alt="Project 3" />
+                            <img className="rounded-t-lg lg:h-64" src={Jms} alt="Project 3" />
                         </span>
                         <div className="p-2">
                             <span className='flex justify-between items-center'>
-                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-tertiary">Pelayanan</h5>
-                                <a href="https://github.com/deva3xd/PKL-2024.git" className='text-white bg-black text-xs flex items-center py-2 px-3 rounded-lg gap-1'>
+                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-tertiary">Job Management System</h5>
+                                <a href="https://github.com/deva3xd/Capstone-Project.git" className='text-white bg-black text-xs flex items-center py-2 px-3 rounded-lg gap-1'>
                                     <img src={Github} alt='Github' width={15} />
                                     Source</a>
                             </span>
@@ -64,8 +64,8 @@ const Project = () => {
                         </span>
                         <div className="p-2">
                             <span className='flex justify-between items-center'>
-                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-tertiary">Poke</h5>
-                                <a href="https://github.com/deva3xd/Poke.git" className='text-white bg-black text-xs flex items-center py-2 px-3 rounded-lg gap-1'>
+                                <h5 className="text-lg sm:text-2xl font-bold tracking-tight text-custom-tertiary">Pokemon List</h5>
+                                <a href="https://github.com/deva3xd/Simple-Project.git" className='text-white bg-black text-xs flex items-center py-2 px-3 rounded-lg gap-1'>
                                     <img src={Github} alt='Github' width={15} />
                                     Source</a>
                             </span>

@@ -6,17 +6,16 @@ const About = () => {
     useEffect(() => {
         Aos.init();
     }, []);
-    
+
     return (
         <div className="bg-custom-tertiary text-white max-w-screen-xl mx-auto px-5 lg:px-20 pt-14 relative border-t-2 border-white" id="about">
             <div data-aos="fade-right">
                 <div className="text-center lg:px-36">
                     <h2 className="text-2xl sm:text-4xl font-bold mb-2 sm:mb-5">About</h2>
                     <p className=" font-light text-base">
-                        I am an informatics engineering student at Nusantara University PGRI
-                        Kediri. Now I am in my 7th semester. I am a web developer whose
-                        favorite framework is Laravel. Design and build applications to suit
-                        everyone's needs. I can work as a team or individually.
+                        I am an informatics engineering student at Nusantara PGRI University Kediri. Now I am
+                        in 7th semester. I am a web developer whose favorite framework is Laravel. Design and
+                        build applications to suit everyone's needs. I can work as a team or individually.
                     </p>
                 </div>
                 <div className="flex mt-10">
@@ -68,7 +67,7 @@ const About = () => {
                                 Laravel
                             </span>
                             <span className="rounded-lg bg-white font-bold text-custom-tertiary px-3 ms-1 mt-1">
-                                React
+                                React Js
                             </span>
                             <span className="rounded-lg bg-white font-bold text-custom-tertiary px-3 ms-1 mt-1">
                                 MySQL
@@ -78,9 +77,6 @@ const About = () => {
                             </span>
                             <span className="rounded-lg bg-white font-bold text-custom-tertiary px-3 ms-1 mt-1">
                                 Web Design
-                            </span>
-                            <span className="rounded-lg bg-white font-bold text-custom-tertiary px-3 ms-1 mt-1">
-                                Linux
                             </span>
                         </div>
                     </div>
