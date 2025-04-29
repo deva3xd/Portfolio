@@ -43,11 +43,11 @@ const Navbar = () => {
                     className={`w-full md:block md:w-auto ${isOpen ? 'block' : 'hidden'}`}
                     id="navbar-default"
                 >
-                    <ul className="text-white font-bold flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-custom-tertiary">
+                    <ul className="text-white flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-custom-tertiary">
                         <li>
                             <a
                                 href="#about"
-                                className="text-xl font-medium block py-2 px-3 rounded hover:bg-custom-secondary md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0"
+                                className="text-xl font-normal block py-2 px-3 rounded hover:bg-custom-secondary md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0"
                             >
                                 About
                             </a>
@@ -55,7 +55,7 @@ const Navbar = () => {
                         <li>
                             <a
                                 href="#project"
-                                className="text-xl font-medium block py-2 px-3 rounded hover:bg-custom-secondary md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 "
+                                className="text-xl font-normal block py-2 px-3 rounded hover:bg-custom-secondary md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 "
                             >
                                 Project
                             </a>
@@ -63,7 +63,7 @@ const Navbar = () => {
                         <li>
                             <a
                                 href="#contact"
-                                className="text-xl font-medium block py-2 px-3 rounded hover:bg-custom-secondary md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 "
+                                className="text-xl font-normal block py-2 px-3 rounded hover:bg-custom-secondary md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 "
                             >
                                 Contact
                             </a>

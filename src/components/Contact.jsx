@@ -31,7 +31,7 @@ const Contact = () => {
 
     return (
         <div className="bg-custom-tertiary text-white max-w-screen-xl mx-auto px-10 lg:px-20 py-14 relative" id="contact">
-            <h3 className="text-xl sm:text-3xl font-bold text-center">Interest to hire me?</h3>
+            <h3 className="text-xl sm:text-3xl font-medium text-center">Interest to hire me?</h3>
             <h2 className="text-2xl sm:text-4xl font-bold text-center text-custom-secondary mb-5">Contact Now</h2>
             <div className="flex flex-col lg:flex-row gap-5 sm:gap-2">
                 <div className="lg:w-4/6 text-white">
@@ -52,20 +52,20 @@ const Contact = () => {
                 </div>
                 <div className='lg:w-2/6 bg-black border-8 border-custom-secondary'>
                     <div className='flex flex-col justify-center h-full p-5'>
-                        <h4 className='text-xl sm:text-3xl text-center font-bold border-b-4 border-white pb-5'>Contact <br /> Information</h4>
-                        <div className='flex text-base lg:text-xl items-center font-bold mt-5'>
+                        <h4 className='text-xl sm:text-3xl text-center font-medium border-b-4 border-white pb-5'>Contact <br /> Information</h4>
+                        <div className='flex text-base lg:text-xl items-center font-medium mt-5'>
                             <img src={Whatsapp} alt='Whatsapp' width={35} />
                             <p className='ms-3'>
                                 +62 821-4276-2543
                             </p>
                         </div>
-                        <div className='flex text-md items-center font-bold mt-3'>
+                        <div className='flex text-md items-center font-medium mt-3'>
                             <img src={Telegram} alt='Telegram' width={35} />
                             <p className='ms-3'>
                                 deva3xd
                             </p>
                         </div>
-                        <div className='flex text-md items-center font-bold mt-3'>
+                        <div className='flex text-md items-center font-medium mt-3'>
                             <img src={Gmail} alt='Gmail' width={35} />
                             <p className='ms-3'>
                                 devarn05@gmail.com
