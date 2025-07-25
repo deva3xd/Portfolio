@@ -1,6 +1,8 @@
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import Aos from "aos";
+import Lottie from "lottie-react";
+import Programming from "../assets/animations/programming.json";
 
 const About = () => {
     useEffect(() => {
@@ -8,77 +10,32 @@ const About = () => {
     }, []);
 
     return (
-        <div className="bg-custom-tertiary text-white max-w-screen-xl mx-auto px-5 lg:px-20 pt-14 relative border-t-2 border-white" id="about">
+        <div className="bg-custom-tertiary text-white px-5 lg:px-20 pt-14 relative border-t-2 border-white" id="about">
             <div data-aos="fade-right">
-                <div className="text-center lg:px-36">
-                    <h2 className="text-2xl sm:text-4xl font-bold mb-2 sm:mb-5">About</h2>
-                    <p className=" font-light text-base">
-                        I am an informatics engineering student at Nusantara PGRI University Kediri. Now I am
-                        in 7th semester. I am a web developer whose favorite framework is Laravel. Design and
-                        build applications to suit everyone's needs. I can work as a team or individually.
-                    </p>
-                </div>
-                <div className="flex mt-10">
-                    <div className="w-1/2 ">
-                        <h3 className="text-lg font-bold">Education</h3>
-                        <ul className="list-inside font-normal text-sm sm:text-base">
-                            <li className="flex items-center">
-                                <svg
-                                    className="w-3.5 h-3.5 me-1 sm:me-2 text-green-500 dark:text-green-400 flex-shrink-0"
-                                    aria-hidden="true"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                >
-                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                                </svg>
-                                SMPN 1 KEPUNG (2015 - 2018)
+                <h2 className="text-3xl sm:text-6xl font-bold mb-2 sm:mb-5 text-center sm:text-start">About</h2>
+                <div className="flex flex-col-reverse sm:flex-row">
+                    <div className="w-full sm:w-1/2">
+                        <p className=" font-light text-lg text-justify">
+                            I'm a programmer, who is always looking for new challenges to develop myself. I was born and raised in Kediri, Indonesia. I can work as a team or individually. I'm a responsible person and I can work under pressure.
+                        </p>
+                        <h3 className="text-lg font-bold mt-6">Education</h3>
+                        <ol className="relative border-s border-gray-200 dark:border-gray-700">
+                            <li className="mb-10 ms-4">
+                                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2018 - 2021</time>
+                                <h3 className="text-lg font-semibold text-white">Palapa Vocational School Pare</h3>
+                                <p className="text-base font-normal text-gray-500 text-justify">I majored in Software Engineering. I learned a lot of things like hardware and software.</p>
                             </li>
-                            <li className="flex items-center">
-                                <svg
-                                    className="w-3.5 h-3.5 me-1 sm:me-2 text-green-500 dark:text-green-400 flex-shrink-0"
-                                    aria-hidden="true"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="currentColor"
-                                    viewBox="0 0 20 20"
-                                >
-                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                                </svg>
-                                SMK PALAPA PARE (2018 - 2021)
+                            <li className="ms-4">
+                                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2021 - 2025</time>
+                                <h3 className="text-lg font-semibold text-white">Nusantara PGRI University Kediri</h3>
+                                <p className="text-base font-normal text-gray-500 text-justify">I majored in Informatic Engineering. I studied basic programming and advanced programming until I was able to create a website.</p>
                             </li>
-                            <li className="flex items-center">
-                                <svg
-                                    className="w-3.5 h-3.5 me-1 sm:me-2 text-green-500 dark:text-green-400 flex-shrink-0"
-                                    aria-hidden="true"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="gray"
-                                    viewBox="0 0 20 20"
-                                >
-                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                                </svg>
-                                UNIVERSITAS NUSANTARA PGRI KEDIRI (2021 - Now)
-                            </li>
-                        </ul>
+                        </ol>
                     </div>
-                    <div className="w-1/2">
-                        <h3 className="text-lg font-bold text-end">Skills</h3>
-                        <div className="flex flex-wrap w-full uppercase justify-end text-sm sm:text-base">
-                            <span className="rounded-lg bg-white font-bold text-custom-tertiary px-3 ms-1 mt-1">
-                                Laravel
-                            </span>
-                            <span className="rounded-lg bg-white font-bold text-custom-tertiary px-3 ms-1 mt-1">
-                                React Js
-                            </span>
-                            <span className="rounded-lg bg-white font-bold text-custom-tertiary px-3 ms-1 mt-1">
-                                MySQL
-                            </span>
-                            <span className="rounded-lg bg-white font-bold text-custom-tertiary px-3 ms-1 mt-1">
-                                Tailwind
-                            </span>
-                            <span className="rounded-lg bg-white font-bold text-custom-tertiary px-3 ms-1 mt-1">
-                                Web Design
-                            </span>
-                        </div>
+                    <div className="w-full sm:w-1/2">
+                        <Lottie loop={true} animationData={Programming} className="h-72 sm:h-96" />
                     </div>
                 </div>
             </div>

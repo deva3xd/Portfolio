@@ -12,7 +12,7 @@ export default function App() {
     return (
         <div className="bg-custom-primary">
             <Particle id="particles" />
-            <div className="container mx-auto">
+            <div className="max-w-screen-2xl mx-auto">
                 <Navbar />
                 <Hero />
                 <About />
