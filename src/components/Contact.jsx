@@ -47,7 +47,7 @@ const Contact = () => {
                                 Submit WhatsApp
                             </button>
                             <div className='flex'>
-                                <a href='mailto:devarn05@gmail.com' type="submit" className="bg-white flex justify-center py-2 md:py-3 hover:bg-opacity-90 rounded-sm px-3 items-center ms-1 text-black">
+                                <a href='mailto:devarn05@gmail.com' type="submit" className="bg-red-800 flex justify-center py-2 md:py-3 hover:bg-opacity-90 rounded-sm px-3 items-center ms-1">
                                     Gmail
                                 </a>
                                 <a href='https://t.me/deva3xd' type="submit" className="bg-blue-800 flex justify-center py-2 md:py-3 hover:bg-opacity-90 rounded-sm px-3 items-center ms-1">
