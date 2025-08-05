@@ -1,6 +1,6 @@
 import React from "react";
-import Movieflix from "../assets/images/movieflix.png";
-import Beatwave from "../assets/images/beatwave.png";
+import Movieflix from "../images/movieflix.png";
+import Beatwave from "../images/beatwave.png";
 import { SiLaravel, SiInertia, SiTailwindcss, SiMysql, SiNextdotjs, SiShadcnui, SiDaisyui } from "react-icons/si";
 
 const Project = () => {
