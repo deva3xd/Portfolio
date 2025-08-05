@@ -8,7 +8,7 @@ const About = () => {
                 <h2 className="text-3xl sm:text-4xl font-bold mb-2 sm:mb-5">what about me?</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2">
                     <div className="order-2 sm:order-1">
-                        <p className=" font-light text-lg">
+                        <p className=" font-light text-lg text-justify sm:text-start">
                             I'm a programmer, who is always looking for new challenges to develop myself. I was born and raised in Kediri, Indonesia. I can work as a team or individually. I'm a responsible person and I can work under pressure.
                         </p>
                         <h3 className="text-lg font-bold mt-6 underline">Services</h3>
