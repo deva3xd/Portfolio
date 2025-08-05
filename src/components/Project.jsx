@@ -1,46 +1,106 @@
-import "aos/dist/aos.css";
-import React, { useEffect } from "react";
-import Aos from "aos";
-import Github from "../assets/icons/github.png";
+import React from "react";
 import Movieflix from "../assets/images/movieflix.png";
 import Beatwave from "../assets/images/beatwave.png";
+import { SiLaravel, SiInertia, SiTailwindcss, SiMysql, SiNextdotjs, SiShadcnui, SiDaisyui } from "react-icons/si";
 
 const Project = () => {
-    useEffect(() => {
-        Aos.init();
-    }, []);
-
     return (
-        <div className="bg-custom-tertiary text-white px-5 lg:px-20 pt-14 relative" id="project">
-            <div data-aos="fade-right">
-                <div className="text-center">
-                    <h2 className="text-3xl sm:text-6xl font-bold mb-2 sm:mb-5">Project</h2>
-                </div>
-                <div className="flex flex-wrap justify-center gap-5 px-10 lg:px-0">
-                    <div className="lg:max-w-md bg-white border border-white rounded-sm shadow">
-                        <span className="h-full">
-                            <img className="lg:h-60" src={Movieflix} alt="movieflix" />
-                        </span>
-                        <div className="p-2">
-                            <span className='flex justify-between items-center'>
-                                <h5 className="text-lg sm:text-xl font-medium tracking-tight text-custom-tertiary">Movie App</h5>
-                                <a href="https://github.com/deva3xd/Movie-App.git" className='text-white bg-black text-xs flex items-center py-2 px-3 rounded-lg gap-1'>
-                                    <img src={Github} alt='Github' width={15} />
-                                    Source</a>
-                            </span>
+        <div className="bg-default px-5 sm:px-20 py-14 relative" id="project">
+            <div className="text-center">
+                <h2 className="text-3xl sm:text-4xl font-bold mb-2 sm:mb-5 text-primary">Project</h2>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2">
+                <div className="bg-primary text-default p-4 border-2 border-primary order-1">
+                    <p className="underline font-medium text-xl sm:text-2xl">MovieFlix</p>
+                    <p className="text-lg font-light">Movie App</p>
+                    <img className="my-2 border border-primary h-auto sm:h-52" src={Movieflix} alt="movieflix" />
+                    <div className="flex flex-row justify-between">
+                        <div className="flex flex-row items-center">
+                            <a href="https://github.com/deva3xd/Movie-App.git" className="hover:underline">github</a> |
+                            <div className="bg-default text-primary px-1 rounded-sm">progress</div>
+                        </div>
+                        <div className="flex flex-row items-center gap-1">
+                            <div className="bg-default p-1 border border-primary rounded-sm">
+                                <SiLaravel className="text-primary" />
+                            </div>
+                            <div className="bg-default p-1 border border-primary rounded-sm">
+                                <SiInertia className="text-primary" />
+                            </div>
+                            <div className="bg-default p-1 border border-primary rounded-sm">
+                                <SiDaisyui className="text-primary" />
+                            </div>
+                            <div className="bg-default p-1 border border-primary rounded-sm">
+                                <SiMysql className="text-primary" />
+                            </div>
                         </div>
                     </div>
-                    <div className="lg:max-w-md bg-white border border-white rounded-sm shadow">
-                        <span className="h-full">
-                            <img className="lg:h-60" src={Beatwave} alt="beatwave" />
-                        </span>
-                        <div className="p-2">
-                            <span className='flex justify-between items-center'>
-                                <h5 className="text-lg sm:text-xl font-medium tracking-tight text-custom-tertiary">Music App</h5>
-                                <a href="https://github.com/deva3xd/Music-App.git" className='text-white bg-black text-xs flex items-center py-2 px-3 rounded-lg gap-1'>
-                                    <img src={Github} alt='Github' width={15} />
-                                    Source</a>
-                            </span>
+                </div>
+                <div className="bg-default text-primary p-4 border-2 border-primary order-2">
+                    <p className="underline font-medium text-xl sm:text-2xl">BeatWave</p>
+                    <p className="text-lg font-light">Music App</p>
+                    <img className="my-2 border border-primary h-auto sm:h-52" src={Beatwave} alt="beatwave" />
+                    <div className="flex flex-row justify-between">
+                        <div className="flex flex-row items-center w-1/2">
+                            <a href="https://github.com/deva3xd/Music-App.git" className="hover:underline">github</a> |
+                            <div className="bg-primary text-default px-1 rounded-sm">progress</div>
+                        </div>
+                        <div className="flex flex-row items-center gap-1">
+                            <div className="bg-primary p-1 border border-primary rounded-sm">
+                                <SiNextdotjs className="text-default" />
+                            </div>
+                            <div className="bg-primary p-1 border border-primary rounded-sm">
+                                <SiTailwindcss className="text-default" />
+                            </div>
+                            <div className="bg-primary p-1 border border-primary rounded-sm">
+                                <SiShadcnui className="text-default" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="bg-default text-primary p-4 border-2 border-primary order-4 sm:order-3">
+                    <p className="underline font-medium text-xl sm:text-2xl">BeatWave</p>
+                    <p className="text-lg font-light">Music App</p>
+                    <img className="my-2 border border-primary h-auto sm:h-52" src={Beatwave} alt="beatwave" />
+                    <div className="flex flex-row justify-between">
+                        <div className="flex flex-row items-center w-1/2">
+                            <a href="https://github.com/deva3xd/Music-App.git" className="hover:underline">github</a> |
+                            <div className="bg-primary text-default px-1 rounded-sm">progress</div>
+                        </div>
+                        <div className="flex flex-row items-center gap-1">
+                            <div className="bg-primary p-1 border border-primary rounded-sm">
+                                <SiNextdotjs className="text-default" />
+                            </div>
+                            <div className="bg-primary p-1 border border-primary rounded-sm">
+                                <SiTailwindcss className="text-default" />
+                            </div>
+                            <div className="bg-primary p-1 border border-primary rounded-sm">
+                                <SiShadcnui className="text-default" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="bg-primary text-default p-4 border-2 border-primary order-3 sm:order-4">
+                    <p className="underline font-medium text-xl sm:text-2xl">MovieFlix</p>
+                    <p className="text-lg font-light">Movie App</p>
+                    <img className="my-2 border border-primary h-auto sm:h-52" src={Movieflix} alt="movieflix" />
+                    <div className="flex flex-row justify-between">
+                        <div className="flex flex-row items-center w-1/2">
+                            <a href="https://github.com/deva3xd/Movie-App.git" className="hover:underline">github</a> |
+                            <div className="bg-default text-primary px-1 rounded-sm">progress</div>
+                        </div>
+                        <div className="flex flex-row items-center gap-1">
+                            <div className="bg-default p-1 border border-primary rounded-sm">
+                                <SiLaravel className="text-primary" />
+                            </div>
+                            <div className="bg-default p-1 border border-primary rounded-sm">
+                                <SiInertia className="text-primary" />
+                            </div>
+                            <div className="bg-default p-1 border border-primary rounded-sm">
+                                <SiDaisyui className="text-primary" />
+                            </div>
+                            <div className="bg-default p-1 border border-primary rounded-sm">
+                                <SiMysql className="text-primary" />
+                            </div>
                         </div>
                     </div>
                 </div>

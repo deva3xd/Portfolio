@@ -1,25 +1,21 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
+import Header from "./components/Header";
 import Project from "./components/Project";
+import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Particle from "./components/Particle";
-import Button from "./components/Button";
 
 export default function App() {
     return (
-        <div className="bg-custom-primary">
-            <Particle id="particles" />
-            <div className="max-w-screen-2xl mx-auto">
+        <div className="bg-default">
+            <div className="max-w-screen-lg mx-auto">
                 <Navbar />
-                <Hero />
-                <About />
+                <Header />
                 <Project />
+                <About />
                 <Contact />
                 <Footer />
-                <Button />
             </div>
         </div>
     );
