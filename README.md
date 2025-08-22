@@ -3,4 +3,3 @@ You can see anything about myself in here. I'm not perfect person, but trying to
 
 ## Reference
  - [Irtideath](https://irtideath.vercel.app/)
- - [UX Pilot](https://uxpilot.ai/)

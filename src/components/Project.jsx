@@ -67,8 +67,9 @@ const Project = () => {
                     <img className="my-2 border border-primary h-auto sm:h-52" src={YourTask} alt="YourTask" />
                     <div className="flex flex-row justify-between">
                         <div className="flex flex-row items-center w-1/2">
+                            <a href="https://todo-list-deva3xd.vercel.app" className="hover:underline">view</a> |
                             <a href="https://github.com/deva3xd/Todo-List.git" className="hover:underline">github</a> |
-                            <div className="bg-primary text-default px-1 rounded-sm">done</div>
+                            <div className="bg-primary text-default px-1 rounded-sm">completed</div>
                         </div>
                         <div className="flex flex-row items-center gap-1">
                             <div className="bg-primary p-1 border border-primary rounded-sm">
@@ -76,12 +77,6 @@ const Project = () => {
                             </div>
                             <div className="bg-primary p-1 border border-primary rounded-sm">
                                 <SiTailwindcss className="text-default" />
-                            </div>
-                            <div className="bg-primary p-1 border border-primary rounded-sm">
-                                <SiPrisma className="text-default" />
-                            </div>
-                            <div className="bg-primary p-1 border border-primary rounded-sm">
-                                <SiMysql className="text-default" />
                             </div>
                         </div>
                     </div>
