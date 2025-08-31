@@ -9,7 +9,7 @@ const Hero = () => {
                 <p className="text-lg sm:text-2xl lowercase mb-4">Web Developer</p>
                 <div className="flex flex-row items-center justify-end gap-2">
                     <a href="#about" className="py-0 px-2 sm:py-1 sm:px-3 bg-default text-primary rounded-sm capitalize text-lg sm:text-2xl hover:bg-opacity-95">About Me</a>
-                    <BsArrowDown size={30} />
+                    <BsArrowDown size={30} className="animate-bounceY" />
                 </div>
             </div>
         </div>

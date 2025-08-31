@@ -20,7 +20,7 @@ const About = () => {
                 <h3 className="text-lg font-bold mt-6 underline">Services</h3>
                 <Accordion collapseAll className="mt-2 border-none">
                     <Accordion.Panel>
-                        <Accordion.Title className="text-default hover:text-primary focus:outline-none focus:ring-0 focus:border-0 bg-transparent focus:bg-default focus:text-primary">Web Design</Accordion.Title>
+                        <Accordion.Title className="text-default hover:text-primary focus:outline-none focus:ring-0 focus:border-0 bg-transparent focus:bg-default focus:text-primary !rounded-none">Web Design</Accordion.Title>
                         <Accordion.Content className="border border-none py-2">
                             <p className="mb-2 text-default text-justify">
                                 Creating visually appealing and user-friendly designs that focus on enhancing user experience. Emphasis is placed on clean layouts, intuitive navigation, and responsive design across all devices.
@@ -28,7 +28,7 @@ const About = () => {
                         </Accordion.Content>
                     </Accordion.Panel>
                     <Accordion.Panel>
-                        <Accordion.Title className="text-default hover:text-primary focus:outline-none focus:ring-0 focus:border-0 bg-transparent focus:bg-default focus:text-primary">Frontend</Accordion.Title>
+                        <Accordion.Title className="text-default hover:text-primary focus:outline-none focus:ring-0 focus:border-0 bg-transparent focus:bg-default focus:text-primary !rounded-none">Frontend</Accordion.Title>
                         <Accordion.Content className="border border-none py-2">
                             <p className="mb-2 text-default text-justify">
                                 Transforming designs into functional, interactive, and responsive user interfaces. The goal is to create web experiences that are fast-loading, SEO-friendly, and optimized for seamless performance across a wide range of devices, from desktops to mobile devices.
@@ -36,7 +36,7 @@ const About = () => {
                         </Accordion.Content>
                     </Accordion.Panel>
                     <Accordion.Panel>
-                        <Accordion.Title className="text-default hover:text-primary focus:outline-none focus:ring-0 focus:border-0 bg-transparent focus:bg-default focus:text-primary">Backend</Accordion.Title>
+                        <Accordion.Title className="text-default hover:text-primary focus:outline-none focus:ring-0 focus:border-0 bg-transparent focus:bg-default focus:text-primary !rounded-none">Backend</Accordion.Title>
                         <Accordion.Content className="border border-none py-2">
                             <p className="mb-2 text-default text-justify">
                                 Building and maintaining server-side applications, APIs, and databases. Ensuring secure and scalable server environments, integrating data flow between frontend and backend, and optimizing performance for large-scale applications.
