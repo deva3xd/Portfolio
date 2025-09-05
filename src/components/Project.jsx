@@ -19,7 +19,7 @@ const Project = () => {
                     <div className="flex flex-row justify-between">
                         <div className="flex flex-row items-center">
                             <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/Movie-App.git" className="hover:underline">github</a> |
-                            <div className="bg-default text-primary px-1 rounded-sm">progress</div>
+                            <div className="bg-default text-primary px-1 rounded-sm">completed</div>
                         </div>
                         <div className="flex flex-row items-center gap-1">
                             <div className="bg-default p-1 border border-default rounded-sm">
