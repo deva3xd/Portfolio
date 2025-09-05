@@ -14,15 +14,6 @@ module.exports = {
         'primary': '#2E2E2E',
       },
     },
-    keyframes: {
-      bounceY: {
-        '0%, 100%': { transform: 'translateY(0)' },
-        '50%': { transform: 'translateY(10px)' },
-      },
-    },
-    animation: {
-      bounceY: 'bounceY 1s infinite',
-    },
   },
   plugins: [
     flowbite.plugin(),

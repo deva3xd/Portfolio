@@ -24,7 +24,7 @@ const Navbar = () => {
 
     return (
         <nav className="bg-default text-primary max-w-screen-lg w-screen font-normal fixed top-0 z-10">
-            <div className="flex flex-wrap items-center justify-between py-3 px-5 lg:px-20">
+            <div className="flex flex-wrap items-center justify-between py-4 px-5 lg:px-20">
                 <a href="#header" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <span className="self-center text-lg whitespace-nowrap">
                         DRN
