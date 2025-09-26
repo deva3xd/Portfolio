@@ -2,8 +2,8 @@ import React from "react";
 import Movieflix from "../images/movieflix.png";
 import Beatwave from "../images/beatwave.png";
 import YourTask from "../images/yourtask.png";
-import Creasindo from "../images/creasindo.png";
-import { SiLaravel, SiInertia, SiTailwindcss, SiMysql, SiShadcnui, SiNextdotjs, SiPrisma, SiVite } from "react-icons/si";
+import Ishopee from "../images/ishopee.png";
+import { SiLaravel, SiInertia, SiTailwindcss, SiMysql, SiShadcnui, SiNextdotjs, SiPrisma } from "react-icons/si";
 
 const Project = () => {
     return (
@@ -18,7 +18,7 @@ const Project = () => {
                     <img className="my-2 border border-primary h-auto sm:h-52" src={Movieflix} alt="MovieFlix" />
                     <div className="flex flex-row justify-between">
                         <div className="flex flex-row items-center">
-                            <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/Movie-App.git" className="hover:underline">github</a> |
+                            <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/BeatWave.git" className="hover:underline">github</a> |
                             <div className="bg-default text-primary px-1 rounded-sm">completed</div>
                         </div>
                         <div className="flex flex-row items-center gap-1">
@@ -43,7 +43,7 @@ const Project = () => {
                     <img className="my-2 border border-primary h-auto sm:h-52" src={Beatwave} alt="BeatWave" />
                     <div className="flex flex-row justify-between">
                         <div className="flex flex-row items-center w-1/2">
-                            <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/Music-App.git" className="hover:underline">github</a> |
+                            <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/BeatWave.git" className="hover:underline">github</a> |
                             <div className="bg-primary text-default px-1 rounded-sm">progress</div>
                         </div>
                         <div className="flex flex-row items-center gap-1">
@@ -69,7 +69,7 @@ const Project = () => {
                     <div className="flex flex-row justify-between">
                         <div className="flex flex-row items-center w-1/2">
                             <a target="_blank" rel="noreferrer" href="https://todo-list-deva3xd.vercel.app" className="hover:underline">view</a> |
-                            <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/Todo-List.git" className="hover:underline">github</a> |
+                            <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/YourTask.git" className="hover:underline">github</a> |
                             <div className="bg-primary text-default px-1 rounded-sm">completed</div>
                         </div>
                         <div className="flex flex-row items-center gap-1">
@@ -83,21 +83,26 @@ const Project = () => {
                     </div>
                 </div>
                 <div className="bg-primary text-default p-4 border-2 border-primary order-3 sm:order-4">
-                    <p className="underline font-medium text-xl sm:text-2xl">Creasindo</p>
-                    <p className="text-lg font-light">Advertising</p>
-                    <img className="my-2 border border-primary h-auto sm:h-52" src={Creasindo} alt="Creasindo" />
+                    <p className="underline font-medium text-xl sm:text-2xl">Ishopee</p>
+                    <p className="text-lg font-light">E-commerce</p>
+                    <img className="my-2 border border-primary h-auto sm:h-52" src={Ishopee} alt="Ishopee" />
                     <div className="flex flex-row justify-between">
                         <div className="flex flex-row items-center">
-                            <a target="_blank" rel="noreferrer" href="https://creasindo.vercel.app" className="hover:underline">view</a> |
-                            <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/Advertising.git" className="hover:underline">github</a> |
-                            <div className="bg-default text-primary px-1 rounded-sm">completed</div>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/Ishopee.git" className="hover:underline">github</a> |
+                            <div className="bg-default text-primary px-1 rounded-sm">progress</div>
                         </div>
                         <div className="flex flex-row items-center gap-1">
                             <div className="bg-default p-1 border border-default rounded-sm">
-                                <SiVite className="text-primary" />
+                                <SiLaravel className="text-primary" />
+                            </div>
+                            <div className="bg-default p-1 border border-default rounded-sm">
+                                <SiInertia className="text-primary" />
                             </div>
                             <div className="bg-default p-1 border border-default rounded-sm">
                                 <SiTailwindcss className="text-primary" />
+                            </div>
+                            <div className="bg-default p-1 border border-default rounded-sm">
+                                <SiMysql className="text-primary" />
                             </div>
                         </div>
                     </div>
