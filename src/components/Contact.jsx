@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiGmail, SiInstagram, SiLinkedin, SiTelegram } from 'react-icons/si';
+import { SiDiscord, SiGmail, SiInstagram, SiLinkedin, SiTelegram } from 'react-icons/si';
 
 const Contact = () => {
     return (
@@ -10,6 +10,9 @@ const Contact = () => {
                     <p className='font-light text-lg'>Need help, consultation, talk about random things, playing games, and connect with me.</p>
                 </div>
                 <div className='flex flex-row items-center justify-start sm:justify-end'>
+                    <a href="discordapp.com/users/1121487954339176508" className="flex flex-row items-center border border-primary p-2">
+                        <SiDiscord size={30} />
+                    </a>
                     <a href="mailto:devarn05@gmail.com" className="flex flex-row items-center border border-primary p-2">
                         <SiGmail size={30} />
                     </a>
