@@ -5,17 +5,21 @@ const Navbar = () => {
 
     const items = [
         {
-            name: "Project",
-            link: "#project"
-        },
-        {
             name: "About",
             link: "#about"
         },
         {
+            name: "Skill",
+            link: "#skill"
+        },
+        {
+            name: "Project",
+            link: "#project"
+        },
+        {
             name: "Contact",
             link: "#contact"
-        }
+        },
     ]
 
     const toggleMenu = () => {
@@ -23,7 +27,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-default text-primary max-w-screen-lg w-screen font-normal fixed top-0 z-10">
+        <nav className="bg-default text-primary max-w-screen-lg w-screen font-normal fixed top-0 z-50">
             <div className="flex flex-wrap items-center justify-between py-4 px-5 lg:px-20">
                 <a href="#header" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <span className="self-center text-lg whitespace-nowrap">
@@ -58,7 +62,7 @@ const Navbar = () => {
                     className={`w-full md:block md:w-auto ${isOpen ? 'block' : 'hidden'}`}
                     id="navbar-default"
                 >
-                    <ul className="flex flex-col p-4 md:p-0 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-">
+                    <ul className="flex flex-col p-4 md:p-0 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                         {items.map((item, index) => (
                             <li key={index}>
                                 <a

@@ -7,15 +7,15 @@ import { SiLaravel, SiInertia, SiTailwindcss, SiMysql, SiShadcnui, SiNextdotjs, 
 
 const Project = () => {
     return (
-        <div className="bg-default px-5 sm:px-20 py-14 relative" id="project">
+        <div className="bg-default px-5 sm:px-20 py-16 relative" id="project">
             <div className="text-center">
-                <h2 className="text-3xl sm:text-4xl font-bold mb-2 sm:mb-5 text-primary">Project</h2>
+                <h2 className="text-3xl sm:text-4xl font-semibold mb-2 sm:mb-5 text-primary">Project</h2>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2">
                 <div className="bg-primary text-default p-4 border-2 border-primary order-1">
                     <p className="underline font-medium text-xl sm:text-2xl">MovieFlix</p>
                     <p className="text-lg font-light">Movie App</p>
-                    <img className="my-2 border border-primary h-auto sm:h-52" src={Movieflix} alt="MovieFlix" />
+                    <img loading="lazy" className="my-2 border border-primary h-auto sm:h-52" src={Movieflix} alt="MovieFlix" />
                     <div className="flex flex-row justify-between">
                         <div className="flex flex-row items-center">
                             <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/BeatWave.git" className="hover:underline">github</a> |
@@ -40,7 +40,7 @@ const Project = () => {
                 <div className="bg-default text-primary p-4 border-2 border-primary order-2">
                     <p className="underline font-medium text-xl sm:text-2xl">BeatWave</p>
                     <p className="text-lg font-light">Music App</p>
-                    <img className="my-2 border border-primary h-auto sm:h-52" src={Beatwave} alt="BeatWave" />
+                    <img loading="lazy" className="my-2 border border-primary h-auto sm:h-52" src={Beatwave} alt="BeatWave" />
                     <div className="flex flex-row justify-between">
                         <div className="flex flex-row items-center w-1/2">
                             <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/BeatWave.git" className="hover:underline">github</a> |
@@ -65,7 +65,7 @@ const Project = () => {
                 <div className="bg-default text-primary p-4 border-2 border-primary order-4 sm:order-3">
                     <p className="underline font-medium text-xl sm:text-2xl">YourTask</p>
                     <p className="text-lg font-light">To-do List</p>
-                    <img className="my-2 border border-primary h-auto sm:h-52" src={YourTask} alt="YourTask" />
+                    <img loading="lazy" className="my-2 border border-primary h-auto sm:h-52" src={YourTask} alt="YourTask" />
                     <div className="flex flex-row justify-between">
                         <div className="flex flex-row items-center w-1/2">
                             <a target="_blank" rel="noreferrer" href="https://todo-list-deva3xd.vercel.app" className="hover:underline">view</a> |
@@ -85,7 +85,7 @@ const Project = () => {
                 <div className="bg-primary text-default p-4 border-2 border-primary order-3 sm:order-4">
                     <p className="underline font-medium text-xl sm:text-2xl">Ishopee</p>
                     <p className="text-lg font-light">E-commerce</p>
-                    <img className="my-2 border border-primary h-auto sm:h-52" src={Ishopee} alt="Ishopee" />
+                    <img loading="lazy" className="my-2 border border-primary h-auto sm:h-52" src={Ishopee} alt="Ishopee" />
                     <div className="flex flex-row justify-between">
                         <div className="flex flex-row items-center">
                             <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/Ishopee.git" className="hover:underline">github</a> |
