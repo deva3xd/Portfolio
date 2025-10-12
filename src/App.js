@@ -5,6 +5,7 @@ import Project from "./components/Project";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Skill from "./components/Skill";
 
 export default function App() {
     return (
@@ -12,8 +13,9 @@ export default function App() {
             <div className="max-w-screen-lg mx-auto">
                 <Navbar />
                 <Header />
-                <Project />
                 <About />
+                <Skill />
+                <Project />
                 <Contact />
                 <Footer />
             </div>
