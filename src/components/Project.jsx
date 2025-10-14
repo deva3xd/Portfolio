@@ -7,7 +7,7 @@ import { SiLaravel, SiInertia, SiTailwindcss, SiMysql, SiShadcnui, SiNextdotjs, 
 
 const Project = () => {
     return (
-        <div className="bg-default px-5 sm:px-20 py-16 relative" id="project">
+        <div className="bg-default px-5 sm:px-20 pt-16 relative" id="project">
             <div className="text-center">
                 <h2 className="text-3xl sm:text-4xl font-semibold mb-2 sm:mb-5 text-primary">Project</h2>
             </div>

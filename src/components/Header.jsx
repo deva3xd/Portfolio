@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLongArrowAltDown } from "react-icons/fa";
+import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 
 const Hero = () => {
     return (
@@ -9,7 +9,7 @@ const Hero = () => {
                 <p className="text-lg sm:text-2xl lowercase mb-4">Web Developer</p>
                 <div className="flex flex-row items-center justify-end gap-2">
                     <a href="#about" className="py-0 px-2 sm:py-1 sm:px-3 bg-default text-primary rounded-sm text-lg sm:text-xl hover:bg-opacity-90">scroll</a>
-                    <FaLongArrowAltDown size={28} />
+                    <HiOutlineArrowNarrowDown size={28} />
                 </div>
             </div>
         </div>
