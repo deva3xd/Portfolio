@@ -1,11 +1,11 @@
 import React from 'react';
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import { SiVite, SiLaravel, SiTailwindcss, SiGithub, SiPrisma, SiFigma } from "react-icons/si";
+import { SiVite, SiLaravel, SiTailwindcss, SiGithub, SiFigma, SiMysql } from "react-icons/si";
 
 const Skill = () => {
   return (
-    <div className="bg-primary text-white px-5 sm:px-20 py-14 relative border-b border-b-gray-200" id="skill">
-      <h2 className="text-4xl font-semibold mb-2 sm:mb-5">skill</h2>
+    <div className="bg-primary text-white px-5 sm:px-20 py-16 relative border-b border-b-gray-200" id="skills">
+      <h2 className="text-4xl font-semibold mb-2 sm:mb-5">skills</h2>
       <div className='flex flex-col divide-y divide-gray-200'>
         <div className='w-full flex justify-between px-8 py-6 hover:bg-white/5'>
           <div className='flex items-center gap-4'>
@@ -36,10 +36,10 @@ const Skill = () => {
         </div>
         <div className='w-full flex justify-between px-8 py-6 hover:bg-white/5'>
           <div className='flex items-center gap-4'>
-            <SiPrisma size={30} />
-            Prisma
+            <SiMysql size={30} />
+            MySQL
           </div>
-          <a href='https://www.prisma.io/'>
+          <a href='https://www.mysql.com/'>
             <HiOutlineArrowNarrowRight size={30} />
           </a>
         </div>
