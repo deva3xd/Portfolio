@@ -10,11 +10,11 @@ const Navbar = () => {
         },
         {
             name: "Skill",
-            link: "#skill"
+            link: "#skills"
         },
         {
             name: "Project",
-            link: "#project"
+            link: "#projects"
         },
         {
             name: "Contact",
@@ -30,14 +30,14 @@ const Navbar = () => {
         <nav className="bg-default text-primary max-w-screen-lg w-screen font-normal fixed top-0 z-50">
             <div className="flex flex-wrap items-center justify-between py-4 px-5 lg:px-20">
                 <a href="#header" className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <span className="self-center text-lg whitespace-nowrap">
+                    <span className="self-center text-base whitespace-nowrap">
                         DRN
                     </span>
                 </a>
                 <button
                     onClick={toggleMenu}
                     type="button"
-                    className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:underline focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-md md:hidden hover:underline focus:outline-none focus:ring-2 focus:ring-gray-200"
                     aria-controls="navbar-default"
                     aria-expanded={isOpen}
                 >
@@ -62,12 +62,12 @@ const Navbar = () => {
                     className={`w-full md:block md:w-auto ${isOpen ? 'block' : 'hidden'}`}
                     id="navbar-default"
                 >
-                    <ul className="flex flex-col p-4 md:p-0 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+                    <ul className="flex flex-col p-4 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                         {items.map((item, index) => (
                             <li key={index}>
                                 <a
                                     href={item.link}
-                                    className="text-lg font-normal block py-2 px-3 rounded hover:underline md:border-0 md:p-0"
+                                    className="text-base font-normal block py-2 px-3 rounded hover:underline md:border-0 md:p-0"
                                 >
                                     {item.name}
                                 </a>
