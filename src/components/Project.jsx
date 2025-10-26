@@ -22,20 +22,20 @@ const Project = () => {
                     </p>
                     <div className="flex flex-row justify-between">
                         <div className="flex flex-row items-center">
-                            <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/BeatWave.git" className="hover:underline bg-white text-primary px-3 py-1 text-xs">code</a>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/MovieFlix.git" className="hover:underline bg-white text-primary px-3 py-1 text-xs">code</a>
                         </div>
                         <div className="flex flex-row items-center gap-1">
                             <div className="bg-default p-1 border border-default rounded-sm">
-                                <SiLaravel className="text-primary" />
+                                <SiLaravel className="text-primary" title="Laravel" />
                             </div>
                             <div className="bg-default p-1 border border-default rounded-sm">
-                                <SiInertia className="text-primary" />
+                                <SiInertia className="text-primary" title="InertiaJs" />
                             </div>
                             <div className="bg-default p-1 border border-default rounded-sm">
-                                <SiTailwindcss className="text-primary" />
+                                <SiTailwindcss className="text-primary" title="Tailwind" />
                             </div>
                             <div className="bg-default p-1 border border-default rounded-sm">
-                                <SiMysql className="text-primary" />
+                                <SiMysql className="text-primary" title="MySQL" />
                             </div>
                         </div>
                     </div>
@@ -54,16 +54,16 @@ const Project = () => {
                         </div>
                         <div className="flex flex-row items-center gap-1">
                             <div className="bg-primary p-1 border border-primary rounded-sm">
-                                <SiNextdotjs className="text-default" />
+                                <SiNextdotjs className="text-default" title="NextJs" />
                             </div>
                             <div className="bg-primary p-1 border border-primary rounded-sm">
-                                <SiShadcnui className="text-default" />
+                                <SiShadcnui className="text-default" title="Shadcn" />
                             </div>
                             <div className="bg-primary p-1 border border-primary rounded-sm">
-                                <SiPrisma className="text-default" />
+                                <SiPrisma className="text-default" title="Prisma" />
                             </div>
                             <div className="bg-primary p-1 border border-primary rounded-sm">
-                                <SiMysql className="text-default" />
+                                <SiMysql className="text-default" title="MySQL" />
                             </div>
                         </div>
                     </div>
@@ -82,10 +82,10 @@ const Project = () => {
                         </div>
                         <div className="flex flex-row items-center gap-1">
                             <div className="bg-primary p-1 border border-primary rounded-sm">
-                                <SiNextdotjs className="text-default" />
+                                <SiNextdotjs className="text-default" title="NextJs" />
                             </div>
                             <div className="bg-primary p-1 border border-primary rounded-sm">
-                                <SiTailwindcss className="text-default" />
+                                <SiTailwindcss className="text-default" title="Tailwind" />
                             </div>
                         </div>
                     </div>
@@ -104,16 +104,16 @@ const Project = () => {
                         </div>
                         <div className="flex flex-row items-center gap-1">
                             <div className="bg-default p-1 border border-default rounded-sm">
-                                <SiLaravel className="text-primary" />
+                                <SiLaravel className="text-primary" title="Laravel" />
                             </div>
                             <div className="bg-default p-1 border border-default rounded-sm">
-                                <SiInertia className="text-primary" />
+                                <SiInertia className="text-primary" title="InertiaJs" />
                             </div>
                             <div className="bg-default p-1 border border-default rounded-sm">
-                                <SiTailwindcss className="text-primary" />
+                                <SiTailwindcss className="text-primary" title="Tailwind" />
                             </div>
                             <div className="bg-default p-1 border border-default rounded-sm">
-                                <SiMysql className="text-primary" />
+                                <SiMysql className="text-primary" title="MySQL" />
                             </div>
                         </div>
                     </div>
