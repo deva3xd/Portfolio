@@ -3,8 +3,8 @@ import { SiVite, SiLaravel, SiTailwindcss, SiGithub, SiFigma, SiMysql } from "re
 
 const Skills = () => {
   return (
-    <section className="bg-primary text-default py-16 w-screen px-5 sm:px-16" id="skills">
-      <div className="max-w-screen-xl mx-auto">
+    <section className="bg-primary text-default py-16 w-screen" id="skills">
+      <div className="max-w-screen-xl mx-auto px-5 sm:px-16">
         <span className="text-default text-lg">-Skills</span>
         <h2 className="text-2xl sm:text-4xl font-semibold mb-2 sm:mb-5 text-default">Skills Possessed</h2>
         <div className='flex flex-col divide-y divide-gray-200'>
