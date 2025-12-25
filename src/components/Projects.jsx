@@ -2,7 +2,7 @@ import Movieflix from "../images/projects/movieflix.png";
 import Beatwave from "../images/projects/beatwave.png";
 import YourTask from "../images/projects/yourtask.png";
 import Ishopee from "../images/projects/ishopee.png";
-import { SiLaravel, SiInertia, SiTailwindcss, SiMysql, SiShadcnui, SiNextdotjs, SiPrisma } from "react-icons/si";
+import { SiLaravel, SiInertia, SiTailwindcss, SiMysql, SiShadcnui, SiNextdotjs, SiPrisma, SiPostgresql } from "react-icons/si";
 
 const Projects = () => {
     return (
@@ -38,7 +38,7 @@ const Projects = () => {
                     <img src={YourTask} alt="yourtask" loading="lazy" className="border border-default rounded-sm my-1" />
                     <div className="flex flex-row justify-between w-full">
                         <div className="flex flex-row gap-1 items-center w-1/2">
-                            <a target="_blank" rel="noreferrer" href="https://todo-list-deva3xd.vercel.app" className="hover:underline bg-default text-primary px-3 py-1 text-xs">demo</a>
+                            <a target="_blank" rel="noreferrer" href="https://todo-list-deva3xd.vercel.app/" className="hover:underline bg-default text-primary px-3 py-1 text-xs">demo</a>
                             <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/YourTask.git" className="hover:underline bg-default text-primary px-3 py-1 text-xs">code</a>
                         </div>
                         <div className="flex flex-row items-center gap-1">
@@ -55,7 +55,8 @@ const Projects = () => {
                     <span className="text-default text-lg">Beatwave</span>
                     <img src={Beatwave} alt="beatwave" loading="lazy" className="border border-default rounded-sm my-1" />
                     <div className="flex flex-row justify-between w-full">
-                        <div className="flex flex-row items-center w-1/2">
+                        <div className="flex flex-row gap-1 items-center w-1/2">
+                            <a target="_blank" rel="noreferrer" href="https://beat-wave-nu.vercel.app/" className="hover:underline bg-default text-primary px-3 py-1 text-xs">demo</a>
                             <a target="_blank" rel="noreferrer" href="https://github.com/deva3xd/BeatWave.git" className="hover:underline bg-default text-primary px-3 py-1 text-xs">code</a>
                         </div>
                         <div className="flex flex-row items-center gap-1">
@@ -69,7 +70,7 @@ const Projects = () => {
                                 <SiPrisma className="text-primary" title="Prisma" />
                             </div>
                             <div className="bg-default p-1 border border-default rounded-sm">
-                                <SiMysql className="text-primary" title="MySQL" />
+                                <SiPostgresql className="text-primary" title="PostgreSQL" />
                             </div>
                         </div>
                     </div>
